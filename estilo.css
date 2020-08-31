@@ -1,0 +1,61 @@
+#topo{
+    /*layout*/
+	margin: 20px 10px 20px 10px;
+	padding: 15px;
+    /*bordas*/
+	border-width: 10px;
+	border-style: groove;
+    /*fonte*/
+	font-family: arial;
+	font-size: 40px;
+	text-align: center;
+    /*cores*/
+	background-color:  #020808;
+    color:rgb(243, 228, 14);  
+}
+
+#lateral {
+	/*layout*/
+	border-width: 10px;
+	border-style: solid white;
+	position: absolute;
+	margin: 10px;
+	width: 15%;
+	height: 550px;
+
+	/*cores*/
+	background-color:#ffa500 ;
+	/*fonte*/
+	line-height: 2;
+	font-family: arial,helvetica;
+	font-size: 0.9em;
+}
+
+#conteudo {
+	/*layout*/
+	position: absolute;
+	right: 20px;
+	width: 80%;
+	/*cores e fontes */
+    font-family:  arial,helvetica;
+}
+#f1{
+	background-color:  #78866b;
+}
+#cor{
+	background-color:  #783c00;
+}
+legend {
+	border:medium solid gray;
+	background-color: white;
+
+}
+#rankdeequipe{
+	/*bordas*/
+	border-style: groove;
+	/*fonte*/
+	text-align: center;
+	/*cores*/
+	background-color:  #010108;
+	color:rgb(243, 243, 8);
+}
